@@ -1,5 +1,5 @@
 const ArticleListPage = () => {
-  return <h1>This is the article list page!</h1>;
+  return <h1>This is the articles list page!</h1>;
 };
 
 export default ArticleListPage;
