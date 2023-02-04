@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import articles from "./article-content";
 import NotFoundPage from "./NotFoundPage";
-import CommentsList from "./components/CommentsList";
-import AddCommentForm from "./components/AddCommentForm";
+import CommentsList from "../components/CommentsList";
+import AddCommentForm from "../components/AddCommentForm";
 
 const ArticlePage = () => {
   const [articleInfo, setArticleInfo] = useState({ upvote: 0, comments: [] });
