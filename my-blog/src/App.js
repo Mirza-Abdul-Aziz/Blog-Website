@@ -4,6 +4,8 @@ import AboutPage from "./pages/AboutPage";
 import ArticlesListPage from "./pages/ArticlesListPage";
 import ArticlePage from "./pages/ArticlePage";
 import NavBar from "./NavBar";
+import CreateAccountPage from "./pages/CreateAccountPage";
+import LoginPage from "./pages/LoginPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
